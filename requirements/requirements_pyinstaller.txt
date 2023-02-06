@@ -88,7 +88,7 @@ importlib-metadata==6.0.0
     #   sphinx
 in-n-out==0.1.6
     # via app-model
-ipykernel==6.20.2
+ipykernel==6.21.1
     # via
     #   PartSeg (setup.cfg)
     #   napari-console
@@ -108,12 +108,13 @@ jinja2==3.1.2
     #   sphinx
 jsonschema==4.17.3
     # via napari
-jupyter-client==8.0.1
+jupyter-client==8.0.2
     # via
     #   ipykernel
     #   qtconsole
-jupyter-core==5.1.5
+jupyter-core==5.2.0
     # via
+    #   ipykernel
     #   jupyter-client
     #   qtconsole
 kiwisolver==1.4.4
@@ -138,7 +139,7 @@ mdurl==0.1.2
     # via markdown-it-py
 mpmath==1.2.1
     # via sympy
-mypy-extensions==0.4.3
+mypy-extensions==1.0.0
     # via psygnal
 napari==0.4.17
     # via PartSeg (setup.cfg)
@@ -159,7 +160,7 @@ nme==0.1.6
     # via PartSeg (setup.cfg)
 npe2==0.6.2
     # via napari
-numpy==1.24.1
+numpy==1.24.2
     # via
     #   PartSeg (setup.cfg)
     #   czifile
@@ -182,7 +183,7 @@ numpydoc==1.5.0
     # via napari
 oiffile==2022.9.29
     # via PartSeg (setup.cfg)
-openpyxl==3.0.10
+openpyxl==3.1.0
     # via PartSeg (setup.cfg)
 packaging==23.0
     # via
@@ -339,7 +340,7 @@ sphinxcontrib-applehelp==1.0.4
     # via sphinx
 sphinxcontrib-devhelp==1.0.2
     # via sphinx
-sphinxcontrib-htmlhelp==2.0.0
+sphinxcontrib-htmlhelp==2.0.1
     # via sphinx
 sphinxcontrib-jsmath==1.0.1
     # via sphinx
@@ -356,7 +357,7 @@ superqt==0.4.1
     #   napari
 sympy==1.11.1
     # via PartSeg (setup.cfg)
-tifffile==2023.1.23.1
+tifffile==2023.2.3
     # via
     #   PartSeg (setup.cfg)
     #   czifile
@@ -380,7 +381,7 @@ tqdm==4.64.1
     # via napari
 traceback-with-variables==2.0.4
     # via PartSeg (setup.cfg)
-traitlets==5.8.1
+traitlets==5.9.0
     # via
     #   comm
     #   ipykernel
@@ -414,9 +415,9 @@ wrapt==1.14.1
     # via napari
 xlrd==2.0.1
     # via PartSeg (setup.cfg)
-xlsxwriter==3.0.7
+xlsxwriter==3.0.8
     # via PartSeg (setup.cfg)
-zipp==3.12.0
+zipp==3.12.1
     # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
